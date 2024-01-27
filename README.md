@@ -2,6 +2,6 @@
 
 ## :star2: Greetings
 
-I’m **Sean**, a coder and glad to meet new friends.
+**Sean** aka _StarSculptor_
 
-Currently working on RimWorld's mods (C#).
+Coding for fun.
