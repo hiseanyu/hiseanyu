@@ -1,0 +1,46 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	// Dev Container: DC-01
+	"name": "DC-01",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/base:noble",
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"EditorConfig.EditorConfig",
+				"bierner.github-markdown-preview",
+				"DavidAnson.vscode-markdownlint"
+			],
+			"settings": {
+				"markdownlint.config": {
+					"MD033": {
+						"allowed_elements": [
+							"h1",
+							"h2",
+							"div",
+							"samp",
+							"br",
+							"a"
+						]
+					}
+				}
+			}
+		}
+	},
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+	// Environment variables for this container
+	"containerEnv": {
+		"TZ": "Asia/Singapore"
+	}
+	// Mount configuration directory
+	// "mounts": []
+}
