@@ -12,7 +12,7 @@
 
 ### Hi there 👋
 
-**Sean** a.k.a. _Spark_, an engineer, explorer and lifelong learner.
+I'm **Sean Yu**, an engineer, explorer and lifelong learner.
 
 ### Identities 🪪
 
@@ -22,8 +22,8 @@
 
 #### GPG
 
-`ACTIVE` `MASTER:0x23815B2ADE414D52`
+`ACTIVE` `0x23815B2ADE414D52` `[C]`
 
-- `0x8B7E104F669429B4` `[S]`
+- **`0x8B7E104F669429B4`** `[S]`
 - `0x721B8931A1E37430` `[E]`
 - `0xF22B189F7D8905C7` `[A]`
